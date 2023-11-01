@@ -1,8 +1,13 @@
 import React from 'react'
+import Link from 'next/link'
 
 const index = () => {
-  return (
-    <div>about</div>
+  return ( 
+    <div>
+        About
+        <Link href="/">Home</Link>
+        <a href="/">Home</a>
+    </div>
   )
 }
 
